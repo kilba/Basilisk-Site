@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(13, 17, 23);
+}
+
+.intro hr {
+    width: 20%;
+    height: 2px;
+    border-width: 0;
+    color: rgb(40, 45, 50);
+    background-color: rgb(40, 45, 50);
+}
+
+.intro a {
+    color: rgb(255, 166, 51);
+}
+
+.intro button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 24px 48px;
+    font-size: 16px;
+    cursor: pointer;
+
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(56, 60, 64);
+    border-color: rgb(130, 189, 187);
+    color: rgb(130, 189, 187);
+}
+
+.intro pre code {
+    background: rgb(40, 45, 50);
+
+    margin-left: calc(50% - 300px);
+    width: 600px;
+
+    border-radius: 5px;
+}
+
+.intro {
+    color: rgb(72, 85, 72);
+    margin-top: 32px;
+    /* margin-right: 512px; */
+    font-family: 'Lora', serif;
+    margin-left: calc(50% - 364px);
+    /* text-align: center; */
+    width: 728px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.indented {
+    margin-left: 32px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    background-color: rgb(03, 09, 13);
+}
