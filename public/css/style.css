@@ -1,30 +1,17 @@
 body {
-    background-color: rgb(13, 17, 23);
+    background-color: rgb(15, 20, 30);
 }
 
 .intro hr {
-    width: 20%;
+    width: 100%;
     height: 2px;
     border-width: 0;
     color: rgb(40, 45, 50);
-    background-color: rgb(40, 45, 50);
+    background-color: rgb(34, 45, 61);
 }
 
 .intro a {
     color: rgb(255, 166, 51);
-}
-
-.intro button {
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 24px 48px;
-    font-size: 16px;
-    cursor: pointer;
-
-    font-family: 'Nunito', sans-serif;
-    background-color: rgb(56, 60, 64);
-    border-color: rgb(130, 189, 187);
-    color: rgb(130, 189, 187);
 }
 
 .intro pre code {
@@ -37,7 +24,6 @@ body {
 }
 
 .intro {
-    color: rgb(72, 85, 72);
     margin-top: 32px;
     /* margin-right: 512px; */
     font-family: 'Lora', serif;
@@ -47,11 +33,17 @@ body {
 }
 
 h1 {
-    font-size: 38px;
+    color: rgb(92, 109, 92);
+    font-size: 42px;
 }
 
 p {
-    font-size: 20px;
+    color: rgb(72, 85, 72);
+    font-size: 24px;
+}
+
+.small {
+    font-size: 18px;
 }
 
 .indented {
@@ -64,6 +56,13 @@ p {
     margin-right: auto;
 }
 
+.link-symbol {
+}
+
+.link-symbol:hover {
+    transform: translate(100px, 100px);
+}
+
 .sidebar {
     position: absolute;
     width: 200px;
@@ -72,4 +71,25 @@ p {
     left: 0;
     
     background-color: rgb(03, 09, 13);
+}
+
+.button {
+    width: 30%;
+    height: 50px;
+
+    color: #fff;
+    border-radius: 5px;
+    border-width : 0px;
+
+    font-size: 16px;
+
+    background: rgb(80, 70, 150);
+    transition: background 50ms; 
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 6px -6px rgb(03, 09, 13);
+}
+
+.button:hover {
+    background: rgb(50, 40, 100);
 }
