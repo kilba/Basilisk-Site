@@ -10,10 +10,6 @@ body {
     background-color: rgb(34, 45, 61);
 }
 
-.intro a {
-    color: rgb(255, 166, 51);
-}
-
 .intro pre code {
     background: rgb(40, 45, 50);
 
@@ -25,29 +21,64 @@ body {
 
 .intro {
     margin-top: 32px;
-    /* margin-right: 512px; */
     font-family: 'Lora', serif;
     margin-left: calc(50% - 364px);
-    /* text-align: center; */
     width: 728px;
 }
 
 h1 {
-    color: rgb(92, 109, 92);
+    color: rgb(133, 142, 125);
     font-size: 42px;
 }
 
-p {
-    color: rgb(72, 85, 72);
+h2 {
+    color: rgb(133, 142, 125);
+    font-size: 36px;
+}
+
+h3 {
+    color: rgb(133, 142, 125);
     font-size: 24px;
+}
+
+p {
+    color: rgb(133, 142, 125);
+    font-size: 24px;
+}
+
+.menu-text {
+    color: #fff;
+    text-decoration: none;
+
+    margin-left: 45px;
+    margin-top : 50px;
+
+    position: absolute;
+}
+
+.navigator {
+    color: #fff;
+
+    font-size: 18px;
+    text-decoration: none;
+    
+    position: relative;
+    top:10px;
 }
 
 .small {
     font-size: 18px;
 }
 
-.indented {
+#indented {
     margin-left: 32px;
+}
+
+#embed-link {
+    color: rgb(200, 200, 255);
+    text-decoration: none;
+
+    font-size: 18px;
 }
 
 .image {
@@ -56,16 +87,9 @@ p {
     margin-right: auto;
 }
 
-.link-symbol {
-}
-
-.link-symbol:hover {
-    transform: translate(100px, 100px);
-}
-
 .sidebar {
     position: absolute;
-    width: 200px;
+    width: 17%;
     height: 100%;
     top: 0;
     left: 0;
@@ -83,13 +107,13 @@ p {
 
     font-size: 16px;
 
-    background: rgb(80, 70, 150);
-    transition: background 50ms; 
+    background: rgb(65, 80, 120);
+    transition: background 100ms; 
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: 0 8px 6px -6px rgb(03, 09, 13);
 }
 
 .button:hover {
-    background: rgb(50, 40, 100);
+    background: rgb(50, 70, 100);
 }
