@@ -34,13 +34,19 @@
 	-->
         <h1><i>Basilisk</i></h1>
         <p>
-            Basilisk is an open source rendering engine suited for 2D and 3D graphics. It is written in C
+            Basilisk is an open source rendering engine suited for 2D and 3D graphics. It is written in C with OpenGL. (Vulkan soon!)
         </p>
 
-        <button class="button"><b>Download (Windows)</b></button>
-	<p class="small">
-	    View installation instructions
-	    <span class="link-symbol">→</span>
+	<pre>
+	<code>
+    git clone https://github.com/nusbog/bssh-client/
+    cmake -S . -B build -G "MinGW Makefiles"
+    cd ./build && make
+	</code>
+	</pre>
+
+	<p>
+	It is recommended to add the executable to your environment variables. For further use, check out the <a href="manual.html">manual</a>.
 	</p>
 
 	<div style="position: absolute; top: 0; right: 5%; display: flex">

@@ -11,7 +11,7 @@ body {
 }
 
 .intro pre code {
-    background: rgb(40, 45, 50);
+    background: rgb(35, 45, 50);
 
     margin-left: calc(50% - 300px);
     width: 600px;
@@ -24,6 +24,11 @@ body {
     font-family: 'Lora', serif;
     margin-left: calc(50% - 364px);
     width: 728px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 h1 {

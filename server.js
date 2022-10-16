@@ -19,6 +19,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/bssh'));
 app.use(favicon(__dirname + '/public/resources/favicon.ico'));
 
 // Creating object of key and certificate
